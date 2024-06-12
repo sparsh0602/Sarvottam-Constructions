@@ -1,0 +1,197 @@
+
+
+@media (min-width:320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .OurCollectionOutterMainDiv {
+        position: absolute;
+        top: 185%;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+        margin-top: 5%;
+    }
+
+    .OurCollectionOuterDiv {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .OurCollectionHeading {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1e293b;
+        font-size: 50px;
+        /* text-shadow: 2px 2px black; */
+    }
+
+    .collectionGridContainer {
+        height: 40%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+        margin-left: 5%;
+    }
+
+    .collectionItem {
+        width: 45%;
+        height: 80%;
+        border: none;
+        background-size: cover;
+    }
+
+    .collectionItem1 {
+        background-image: url('./Images/bathroom.png');
+    }
+
+    .collectionItem2 {
+        background-image: url('./Images/room.png');
+    }
+
+    .collectionItem3 {
+        background-image: url('./Images/kitchen.png');
+    }
+
+    .collectionItem4 {
+        background-image: url('./Images/hall.png');
+    }
+
+    .collectionItem5 {
+        background-image: url('./Images/elevation.png');
+    }
+
+    .collectionItem6 {
+        background-image: url('./Images/terrace.png');
+    }
+
+    .collectionItemName {
+        color: white;
+        font-size: 25px;
+        text-shadow: 2.5px 2.5px black;
+        font-weight: 700;
+    }
+
+    .collectionDesktop {
+        display: none;
+    }
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .OurCollectionOutterMainDiv {
+        position: absolute;
+        top: 185%;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+        margin: 0;
+    }
+
+    .OurCollectionOuterDiv {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .OurCollectionHeading {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1e293b;
+        font-size: 70px;
+        /* text-shadow: 2px 2px black; */
+    }
+
+    .collectionGridContainer {
+        height: 40%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+        margin-left: 5%;
+    }
+
+    .collectionItem {
+        width: 30%;
+        height: 80%;
+        border: none;
+        background-size: cover;
+    }
+
+    .collectionItem1 {
+        background-image: url('./Images/bathroom.png');
+    }
+
+    .collectionItem2 {
+        background-image: url('./Images/room.png');
+    }
+
+    .collectionItem3 {
+        background-image: url('./Images/kitchen.png');
+    }
+
+    .collectionItem4 {
+        background-image: url('./Images/hall.png');
+    }
+
+    .collectionItem5 {
+        background-image: url('./Images/elevation.png');
+    }
+
+    .collectionItem6 {
+        background-image: url('./Images/terrace.png');
+    }
+
+    .collectionItemName {
+        color: white;
+        font-size: 30px;
+        text-shadow: 2.5px 2.5px black;
+        font-weight: 700;
+    }
+
+    .collectionItem1:hover {
+        background-image: url('./Images/bathroom2.png');
+        opacity: 1.1;
+    }
+
+    .collectionItem2:hover {
+        background-image: url('./Images/room2.png');
+        opacity: 1.1;
+    }
+
+    .collectionItem3:hover {
+        background-image: url('./Images/kitchen2.png');
+        opacity: 1.1;
+    }
+
+    .collectionItem4:hover {
+        background-image: url('./Images/hall2.png');
+        opacity: 1.1;
+    }
+
+    .collectionItem5:hover {
+        background-image: url('./Images/elevation2.png');
+        opacity: 1.1;
+    }
+
+    .collectionItem6:hover {
+        background-image: url('./Images/terrace2.png');
+        opacity: 1.1;
+    }
+
+    .collectionMobile {
+        display: none;
+    }
+}

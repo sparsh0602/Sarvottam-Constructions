@@ -1,0 +1,270 @@
+@media (min-width:320px) {
+    .MainFooterOutterDiv {
+        position: absolute;
+        top: 470%;
+        height: 45%;
+        width: 100%;
+        background-color: #393839;
+        
+    }
+
+    .MainFooterInnerDivMobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .FooterHorizontalLine {
+        width: 90%;
+        height: 2%;
+        background-color: #a9a19b;
+    }
+
+    .FooterItemDiv1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #a9a19b;
+        font-size: 24px;
+        font-weight: 600;
+        height: 30%;
+
+    }
+
+    .FooterMobileDiv {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color: aliceblue; */
+    }
+
+    .FooterItemDiv {
+        width: 40%;
+        height: 80%;
+        margin-left: 10%;
+    }
+
+    .FooterItemDiv1:hover {
+        color: #f6f6f6;
+        cursor: pointer;
+    }
+
+    .FooterItemDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: #a9a19b;
+        font-weight: 500;
+    }
+
+    .FooterBr {
+        background-color: #393839;
+        border: none;
+        text-align: left;
+        color: #a9a19b;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
+    .FooterBr:hover {
+        color: #f6f6f6;
+        cursor: pointer;
+    }
+
+    .FooterItemDivRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin: 0;
+    }
+
+    .FooterRightDiv {
+        width: 90%;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        height: 40%;
+        /* background-color: #f6f6f6; */
+        color: #a9a19b;
+    }
+
+    .FooterRightDivAbove {
+        padding-left: 10%;
+    }
+
+    .SocialHandlesButton {
+        width: 33%;
+        height: 100%;
+        background-color: #393839;
+        border: none;
+    }
+
+    .SocialHandlesButton {
+        width: 30%;
+        height: 100%;
+        background-color: #393839;
+        border: none;
+        padding-left: 4.5%;
+        display: flex;
+        margin-top: 2%;
+    }
+
+    .SocialHandlesIcon {
+        color: #a9a19b;
+        width: 20%;
+        height: 90%;
+    }
+
+    .SocialHandlesIcon:hover {
+        color: #f6f6f6;
+    }
+
+    .FooterRightDivSocial{
+        margin-left: 10%;
+    }
+
+    .MainFooterInnerDivDesktop {
+        display: none;
+    }
+}
+
+@media (min-width:600px) {
+    .MainFooterOutterDiv {
+        position: absolute;
+        top: 443%;
+        height: 30%;
+        width: 100%;
+        background-color: #393839;
+        ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MainFooterInnerDivDesktop {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FooterItemDiv {
+        width: 25%;
+        height: 100%;
+    }
+
+    .HorizontalLineContainer {
+        display: flex;
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .FooterHorizontalLine {
+        width: 90%;
+        height: 2%;
+        background-color: #a9a19b;
+    }
+
+    .FooterItemDiv {
+        width: 22%;
+        height: 80%;
+    }
+
+    .FooterItemDiv1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #a9a19b;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .FooterItemDiv1:hover {
+        color: #f6f6f6;
+        cursor: pointer;
+    }
+
+    .FooterItemDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: #a9a19b;
+
+        font-weight: 500;
+    }
+
+    .FooterBr {
+        background-color: #393839;
+        border: none;
+        text-align: left;
+        color: #a9a19b;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
+    .FooterBr:hover {
+        color: #f6f6f6;
+        cursor: pointer;
+    }
+
+    .FooterItemDivRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 22%;
+        height: 100%;
+    }
+
+    .FooterRightDiv {
+        width: 100%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-end;
+        height: 40%;
+        /* background-color: #f6f6f6; */
+        color: #a9a19b;
+    }
+
+    .SocialHandlesButton {
+        width: 33%;
+        height: 100%;
+        background-color: #393839;
+        border: none;
+    }
+
+    .SocialHandlesButton {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    .SocialHandlesIcon {
+        width: 200px;
+        color: #a9a19b;
+        width: 40%;
+        height: 40%;
+    }
+
+    .SocialHandlesIcon:hover {
+        color: #f6f6f6;
+    }
+
+    .MainFooterInnerDivMobile {
+        display: none;
+    }
+}

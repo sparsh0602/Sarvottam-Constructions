@@ -1,0 +1,586 @@
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+@media (min-width:320px) {
+    .mainOutterContainer {
+        height: 15%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+    }
+
+    .logoContainer {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FirstName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .SecondName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+
+
+    .hamburger{
+        width: 80%;
+        /* background-color: aliceblue; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .hamburgerIconContainer{
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        border: none;
+        width: 40%;
+        height: 50%;
+    }
+    .hamburgerIcon{
+        color: white;
+        width: 50%;
+        height: 50%;
+    }
+    .hamburgerMobileMenu{
+        display: block;
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        left: 0;
+    }
+    .optionsAboveContainer {
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .optionsDownContainer {
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .optionContainerMobile {
+        width: 22%;
+        height: 60%;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+
+    .optionItemMobile {
+        width: 25%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        font-size: 12px;
+        border: none;
+        text-decoration: none;
+
+    }
+    .hamburgerNone{
+        display: none;
+    }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {
+
+    .mainOutterContainer {
+        height: 15%;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+    }
+
+    .logoContainer {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FirstName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .SecondName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+
+    .hamburger{
+        width: 80%;
+        /* background-color: aliceblue; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .hamburgerIconContainer{
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        border: none;
+        width: 40%;
+        height: 50%;
+    }
+    .hamburgerIcon{
+        color: white;
+        width: 50%;
+        height: 50%;
+    }
+    .hamburgerMobileMenu{
+        display: block;
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        left: 0;
+    }
+    .optionsAboveContainer {
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .optionsDownContainer {
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .optionContainerMobile {
+        width: 22%;
+        height: 60%;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        font-size: 10px;
+
+    }
+
+    .optionItemMobile {
+        width: 25%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        font-size: 12px;
+        border: none;
+        text-decoration: none;
+    }
+    .hamburgerNone{
+        display: none;
+    }
+}
+
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
+
+  
+    .mobile {
+        display: none;
+    }
+
+    .mainOutterContainer {
+        height: 15%;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+    }
+
+    .logoContainer {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FirstName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .SecondName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .optionsOutterContainer {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .optionsAboveContainer {
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .optionsDownContainer {
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 75%;
+        font-weight: 600;
+    }
+
+    .optionContainer {
+        width: 22%;
+        height: 60%;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .optionItem {
+        width: 25%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+    }
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+    .mobile {
+        display: none;
+    }
+
+    .mainOutterContainer {
+        height: 15%;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+    }
+
+    .logoContainer {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FirstName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .SecondName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .optionsOutterContainer {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .optionsAboveContainer {
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .optionsDownContainer {
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 65%;
+        font-weight: 600;
+    }
+
+    .optionContainer {
+        width: 22%;
+        height: 60%;
+        border: 2px solid white;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .optionItem {
+        width: 25%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+    .mobile {
+        display: none;
+    }
+
+    .mainOutterContainer {
+        height: 15%;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoContainer {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FirstName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .SecondName {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .optionsOutterContainer {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .optionsAboveContainer {
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .optionsDownContainer {
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 45%;
+        font-weight: 700;
+    }
+
+    .optionContainer {
+        width: 22%;
+        height: 60%;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .optionItem {
+        width: 25%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 56, 57);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+}
+
+.darkBackground{
+    background-color: rgb(57, 56, 57);
+}
+
+.optionContainer1:hover{
+    background-color: rgb(57, 56, 57);
+    cursor: pointer;
+}
+.optionContainer2:hover{
+    background-color: rgb(57, 56, 57);
+    cursor: pointer;
+}
+.optionContainer3:hover{
+    background-color: rgb(57, 56, 57);
+    cursor: pointer;
+}
+.optionContainer4:hover{
+    background-color: rgb(57, 56, 57);
+    cursor: pointer;
+}
+
+.optionItem1:hover{
+    cursor: pointer;
+}
+.optionItem2:hover{
+    cursor: pointer;
+}
+.optionItem3:hover{
+    cursor: pointer;
+}
+.optionItem4:hover{
+    cursor: pointer;
+}
